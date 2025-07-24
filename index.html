@@ -19,7 +19,6 @@
     <header class="max-w-6xl mx-auto w-full px-4 py-6">
       <div class="flex justify-between items-center">
         <img src="assets/logo.png" alt="Logo" class="w-24 h-auto" />
-
         <nav class="hidden md:flex gap-6 items-center">
           <a class="font-bold" href="#">Home</a>
           <a href="#">Shop</a>
@@ -29,7 +28,6 @@
             <a href="#">Cart ($56)</a>
           </div>
         </nav>
-
         <div class="flex md:hidden items-center gap-2">
           <i class="fa-light fa-cart-shopping text-xl"></i>
           <a href="#">Cart ($56)</a>
@@ -71,16 +69,18 @@
       </h1>
       <p class="text-gray-600 mt-2">
         Indulge your senses with the beauty and fragrance of our fresh flower
-        shop.<br />
-        From classic roses to exotic blooms, we offer a wide variety of fresh.
+        shop. From <br />
+        classic roses to exotic blooms, we offer a wide variety of fresh.
       </p>
     </div>
 
+    <!-- Plant Cards Grid -->
     <main
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 py-10"
     >
       <!-- Repeatable Card -->
-      <div class="flex flex-col items-center bg-white p-4 shadow-lg">
+      <!-- Example card below, repeat as needed -->
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -97,7 +97,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -114,7 +114,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -131,7 +131,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -148,7 +148,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -165,7 +165,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -182,7 +182,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -199,7 +199,7 @@
         </button>
       </div>
 
-      <div class="flex flex-col items-center bg-white p-4 shadow rounded-md">
+      <div class="flex flex-col items-center bg-white p-4 shadow-lg rounded-md">
         <img
           class="h-80 w-64 object-cover"
           src="assets/sample-flower-image.png"
@@ -216,7 +216,7 @@
         </button>
       </div>
 
-      <!-- Repeat above card as needed -->
+      <!-- Add more cards here... -->
     </main>
 
     <!-- Flower & Plants Lover Section -->
@@ -228,7 +228,6 @@
             alt="Florist working"
             class="rounded-lg shadow-lg w-full h-auto object-cover"
           />
-          <!-- Trusted badge hidden on mobile -->
           <div class="absolute -top-20 -right-20 hidden md:block">
             <img
               src="assets/trusted-badge.png"
@@ -253,8 +252,9 @@
             <li>
               <p>
                 Indulge your senses with the beauty and <br />
-                fragrance of our fresh flower shop. From classic <br />roses to
-                exotic blooms, we offer a wide variety <br />of fresh.
+                fragrance of our fresh flower shop. From classic <br />
+                roses to exotic blooms, we offer a wide variety <br />
+                of fresh.
               </p>
             </li>
             <li>
@@ -269,6 +269,7 @@
         </div>
       </div>
     </section>
+
     <!-- Latest Deals Section -->
     <div class="text-center px-4 py-10">
       <h1 class="text-4xl md:text-5xl font-bold">
@@ -276,7 +277,7 @@
       </h1>
       <p class="text-gray-600 mt-2">
         Indulge your senses with the beauty and fragrance of our fresh flower
-        shop. <br />
+        shop.<br />
         From classic roses to exotic blooms, we offer a wide variety of fresh.
       </p>
     </div>
@@ -288,10 +289,10 @@
           <img
             src="assets/deal-bloom.png"
             alt="Bloom Plant"
-            class="rounded-md object-cover"
+            class="rounded-md object-cover w-full"
           />
           <div
-            class="absolute inset-0 flex flex-col justify-center items-center text-white rounded-md"
+            class="absolute inset-0 flex flex-col justify-center items-center text-white rounded-md bg-black/40"
           >
             <h2 class="font-semibold text-lg">60% Off | Bloom Plant</h2>
             <a href="#" class="underline text-sm">Shop Now</a>
@@ -301,10 +302,10 @@
           <img
             src="assets/deal-ana.png"
             alt="Ana Plant"
-            class="rounded-md object-cover"
+            class="rounded-md object-cover w-full"
           />
           <div
-            class="absolute inset-0 flex flex-col justify-center items-center text-white rounded-md"
+            class="absolute inset-0 flex flex-col justify-center items-center text-white rounded-md bg-black/40"
           >
             <h2 class="font-semibold text-lg">30% Off | Ana Plant</h2>
             <a href="#" class="underline text-sm">Shop Now</a>
@@ -318,7 +319,7 @@
           class="rounded-md object-cover w-full h-full"
         />
         <div
-          class="absolute inset-0 flex flex-col justify-center items-center text-white rounded-md"
+          class="absolute inset-0 flex flex-col justify-center items-center text-white rounded-md bg-black/40"
         >
           <h2 class="text-2xl font-semibold">25% Off | Zabo Plant</h2>
           <a href="#" class="underline mt-2">Shop Now</a>
@@ -348,7 +349,7 @@
             class="flex-1 px-4 w-xl h-[50px] bg-white text-black"
           />
           <button
-            class="px-6 bg-orange-600 h-[50px] text-white sm:hover:bg-yello-300 lg:hover:bg-yello-300"
+            class="px-6 bg-orange-600 h-[50px] text-white hover:bg-orange-500"
           >
             Subscribe
           </button>
